@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: #141414;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color:#FFFFFF;
+}
+
+h3 {
+    color: #C4F82A;
+    text-align: center;
+}
+
+h4 {
+    color: #E6E6E6;
+    text-align: center;
+}
+
+#profile {
+    background-color: #1F1F1F;
+    padding: 15px;
+    margin: 50px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
+    font-family: "Inter";
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#social-media {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 12px;
+    width: 80%;
+    justify-content: center;
+    margin: 20px auto 0; 
+}
+
+.profile-picture {
+    display: inline-block;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 20%;
+    padding: 1rem;
+}
+
+.github,
+.linkedin,
+.frontend-mentor,
+.twitter,
+.instagram {
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; 
+
+}
+
+.github:hover,
+.linkedin:hover,
+.frontend-mentor:hover,
+.twitter:hover,
+.instagram:hover {
+    background-color: #C4F82A;
+    color:#141414;
+    font-style: "Inter"
+}
